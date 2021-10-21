@@ -5,9 +5,9 @@
 ## Makefile
 ##
 
-SRC		=	my_putchar.c	\
-			tree.c			\
-			main.c
+SRC		=	src/tools.c		\
+			src/tree.c		\
+			src/main.c
 
 OBJ		=	$(SRC:.c=.o)
 
